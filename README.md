@@ -50,6 +50,7 @@ Once both servers are running, open the Streamlit URL shown in your terminal (us
 1. **Text input with validation** — rejects empty input, caps length at 8,000 characters
 2. **`POST /summarize`** — returns a 3–4 sentence summary of the pasted text
 3. **`POST /quiz`** — returns 3 structured multiple-choice questions (question, 4 options, correct answer index) based on the same text
+4. **`POST /eval-quiz`** — Evaluates the answers of these multiple-choice questions,
 
 ---
 
